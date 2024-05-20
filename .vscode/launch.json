@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:marcellotota}/IgniteStarter-main",
+            "name": "Debug IgniteStarter (IgniteStarter-main)",
+            "program": "${workspaceFolder:marcellotota}/IgniteStarter-main/.build/debug/IgniteStarter",
+            "preLaunchTask": "swift: Build Debug IgniteStarter (IgniteStarter-main)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:marcellotota}/IgniteStarter-main",
+            "name": "Release IgniteStarter (IgniteStarter-main)",
+            "program": "${workspaceFolder:marcellotota}/IgniteStarter-main/.build/release/IgniteStarter",
+            "preLaunchTask": "swift: Build Release IgniteStarter (IgniteStarter-main)"
+        }
+    ]
+}
